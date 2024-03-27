@@ -1,0 +1,35 @@
+.nav-underline .nav-link {
+  position: relative;
+  color: grey; 
+  text-decoration: none; 
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+ .nav-underline .nav-link::before  {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; 
+  bottom: 0;
+  right: 0; 
+  background-color: green; 
+   transition: width 0.5s; 
+}
+
+.nav-underline .nav-link:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.read-more {
+  display: block;
+  margin-top: 10px; 
+  color: green; 
+  text-decoration: none;
+  font-weight:400;
+}
+
+
+ 
+ 
